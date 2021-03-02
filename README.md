@@ -2,8 +2,11 @@
 ## GIT Log OneLiner
 
 ### Colored format
+#### relative time
     
     git log --graph --pretty=format:"%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset" --abbrev-commit
+#### timestamp
+    git log --graph --pretty=format:"%C(bold red)%h%Creset -%C(yellow)%d%Creset %s %C(bold green)(%ci) %C(bold blue)<%an>%Creset" --abbrev-commit
 
 ### One line per file with PHP
     
