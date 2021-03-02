@@ -1,5 +1,5 @@
 # git-log
-GIT Log oneliner
+GIT Log OneLiner
 
 Colored format
     
