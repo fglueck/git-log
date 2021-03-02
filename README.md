@@ -7,6 +7,9 @@
     git log --graph --pretty=format:"%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset" --abbrev-commit
 #### timestamp
     git log --graph --pretty=format:"%C(bold red)%h%Creset -%C(yellow)%d%Creset %s %C(bold green)(%ci) %C(bold blue)<%an>%Creset" --abbrev-commit
+    
+#### custom timestamp / without graph
+    git log  --date="format:%Y-%m-%d %H:%M:%S" --pretty=format:"%C(bold green)%cd: %C(bold red)%h%Creset -%C(yellow)%d%Creset %s %C(bold blue)<%an>%Creset" --abbrev-commit
 
 ### One line per file with PHP
     
